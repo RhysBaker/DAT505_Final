@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+  background: #11e8bb; /* Old browsers */
+  background: -moz-linear-gradient(top,  #03132d 0%, #010a19 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #03132d 0%,#010a19 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #03132d 0%,#010a19 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11e8bb', endColorstr='#8200c9',GradientType=0 ); /* IE6-9 */
+}
+
+canvas {
+  display: block;
+}
+
+ #overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  background-color: #000000;
+  color: #ffffff;
+}
+#overlay > div {
+  text-align: center;
+}
+#overlay > div > button {
+  height: 20px;
+  width: 100px;
+  background: transparent;
+  color: #ffffff;
+  outline: 1px solid #ffffff;
+  border: 0px;
+  cursor: pointer;
+}
+#overlay > div > p {
+  color: #777777;
+  font-size: 12px;
+}
