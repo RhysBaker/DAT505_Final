@@ -13,3 +13,9 @@ The project will automatically play
 You can change the colour of the planet using the GUI
 You can change the colour of the particles using the GUI
 ===============================================================
+
+
+===============================================================
+Optionally go to: 
+https://rhysbaker.github.io/DAT505_Final/
+===============================================================
